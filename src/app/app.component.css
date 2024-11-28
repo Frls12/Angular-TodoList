@@ -1,0 +1,21 @@
+.form-control {
+    border: 1px solid black !important;
+}
+
+.rounded-btn {
+    border-radius: 20px;
+}
+
+.row.pt-4 .col {
+    display: flex;
+    justify-content: space-between; /* Butonları birbirinden uzaklaştırır */
+  }
+  
+  .row.pt-4 .col button {
+    flex: 1; /* Butonların tüm genişliği eşit olmasını sağlar */
+    margin-right: 10px; /* Butonlar arasında boşluk */
+  }
+  
+  .row.pt-4 .col button:last-child {
+    margin-right: 0; /* Son butonun sağındaki boşluğu kaldırır */
+  }
